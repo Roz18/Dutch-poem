@@ -1,0 +1,101 @@
+:root {
+  --primary-font: "Eagle Lake", serif;
+  --secondary-font: "Cormorant Upright", serif;
+}
+
+
+body { 
+    font-family: var(--primary-font);
+    text-align: center;
+    background-image: url("/src/img/floral.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    margin: 15%;
+    min-height: 100vh; 
+}
+
+.container {
+    background-color: rgba(255, 249, 238, 0.911);
+    padding:10px;
+    padding:10px;
+}
+
+
+h1 {
+    color: #1F5CA5;
+}
+
+.form-container {
+    font-family: var(--secondary-font);
+    align-content: space-evenly;
+    border: 10px;
+    display: grid;
+}
+
+/*#poem-generator-form {}*/
+
+.instructions {
+    font-family: var(--secondary-font);
+    padding: 10px;
+    margin: 10px;
+    text-align: start;
+    border-radius: 10px;
+}
+
+
+.submit-button {
+    font-family: var(--primary-font);
+    margin: 10px;
+    background-color: #BBD1F3;
+    border: none;
+    color: #002174;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    cursor: pointer;
+    width: 150px;
+    border-radius: 4px;
+    }
+
+.submit-button:hover {
+    background-color: #d8e2f1;
+    color: #155AA2;
+    }
+
+/*.submit-button:active {
+    border: #002174;}*/
+
+.hint {
+    color: #8c9db8;
+}
+
+.poem_hidden{
+    color: green  
+}
+
+a {
+    color: #002174;
+    text-decoration: none;
+}
+
+a:hover {
+  color:#738FB9;  
+  text-decoration: underline;
+}
+
+footer {
+    font-family: var(--secondary-font);
+    border: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+footer div {
+    color: #002174;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
