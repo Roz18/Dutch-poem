@@ -17,8 +17,7 @@ body {
 
 .container {
     background-color: rgba(255, 249, 238, 0.911);
-    padding:10px;
-    padding:10px;
+    padding:20px;
 }
 
 
@@ -38,9 +37,10 @@ h1 {
 .instructions {
     font-family: var(--secondary-font);
     padding: 10px;
-    margin: 10px;
+    margin: auto;
     text-align: start;
     border-radius: 10px;
+    min-width: fit-content
 }
 
 
@@ -50,11 +50,11 @@ h1 {
     background-color: #BBD1F3;
     border: none;
     color: #002174;
-    padding: 10px 20px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px; 
+    font-size: 12px; 
     cursor: pointer;
     width: 150px;
     border-radius: 4px;
@@ -72,8 +72,13 @@ h1 {
     color: #8c9db8;
 }
 
-.poem_hidden{
-    color: green  
+.poem_hidden {
+    margin: auto;
+    width: fit-content;
+    white-space: pre-line;
+    font-family: var(--secondary-font);
+    background-color:  rgb(252, 250, 247);
+    padding: 20px;
 }
 
 a {
